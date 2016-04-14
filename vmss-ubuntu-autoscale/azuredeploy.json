@@ -4,6 +4,7 @@
   "parameters": {
     "resourceLocation": {
       "type": "string",
+      "defaultValue": "West US",
       "allowedValues": [
         "East US",
         "East US 2",
@@ -27,7 +28,7 @@
     },
     "vmSku": {
       "type": "string",
-      "defaultValue": "Standard_A1",
+      "defaultValue": "Standard_A0",
       "metadata": {
         "description": "Size of VMs in the VM Scale Set."
       }
